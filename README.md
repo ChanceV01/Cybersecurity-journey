@@ -1,82 +1,60 @@
-(Starting Point)
+# Hi there, I'm Chance Vilardo!
 
-## 🧠 Objective
-Gain initial access and capture the user.txt flag.
+Aspiring **Cybersecurity Analyst** on a mission to transition into **penetration testing**. I’m currently learning by doing — building out home labs, working through blue/red team labs on TryHackMe and Hack The Box, and studying for industry certifications.
 
-## 🛠 Tools Used
-- nmap
-- SMB enumeration (enum4linux / smbclient)
-- Hydra
-- Metasploit
+---
 
-## 🔍 Summary
-- Discovered open SMB share.
-- Retrieved usernames and performed brute-force login.
-- Gained access via Metasploit reverse shell.
-- Found the user flag in `C:\Users\Administrator\Desktop\user.txt`.
+## 🔐 My Cybersecurity Journey
 
-## 🎯 Takeaways
-- SMB is a common foothold on Windows machines.
-- Credential reuse is powerful for initial access.
-# 🐛 HTB - Oopsie (Starting Point)
+- Studying **network security**, **Linux**, and **threat detection**
+- Building a **home lab** with Kali Linux, Windows 10 VMs, and tools like Wireshark, Nmap, and Splunk
+- Completing hands-on platforms like:
+  - [TryHackMe](https://tryhackme.com) – *Pre-Security*, *SOC Level 1*
+  - [Hack The Box](https://www.hackthebox.com) – starting beginner labs
+- Currently working toward:
+  - ISC2 **Certified in Cybersecurity (CC)** *(in progress)*
+  - **CompTIA Security+** *(in progress)*
+  - **Google Cybersecurity Certificate** *(in progress)*
 
-## 🧠 Objective
-Exploit a vulnerable web app and escalate privileges.
+---
 
-## 🛠 Tools Used
-- nmap
-- Gobuster
-- Burp Suite
-- Local privilege escalation (SUID binary)
+## 🧠 Skills & Tools
 
-## 🔍 Summary
-- Found login panel, bypassed auth.
-- Discovered `/upload.php` vulnerable endpoint.
-- Uploaded reverse PHP shell.
-- Escalated privileges using SUID `sudo` misconfig.
+| Category         | Technologies & Tools                                    |
+|------------------|---------------------------------------------------------|
+| **Networking**    | TCP/IP, DNS, HTTP, OSI Model                            |
+| **Security Tools**| Wireshark, Nmap, Nessus (intro), Splunk, Burp Suite (intro) |
+| **Operating Systems**| Kali Linux, Windows 10, Ubuntu                     |
+| **Concepts**      | CIA Triad, MITRE ATT&CK (intro), Phishing, Malware     |
+| **Version Control**| Git & GitHub                                          |
+| **Soft Skills**   | Problem Solving, Documentation, Communication          |
 
-## 🎯 Takeaways
-- Always check file upload features.
-- Local privesc often relies on overlooked configs.
-# 🧠 TryHackMe - Pre-Security Path Notes
+---
 
-## 🌐 Topics Covered
-- Introduction to networking
-- The web and HTTP/HTTPS basics
-- Linux fundamentals
-- Introduction to cybersecurity
+## 🧪 Projects & Labs
 
-## 🔑 Key Learnings
-- Learned how IP addressing works.
-- Practiced basic Linux navigation and commands.
-- Understood common attack vectors.
+- **SOC Simulation** – Triaged alerts and escalated incidents in simulated environments  
+- **Penetration Testing Lab** – Practicing enumeration, exploitation, and privilege escalation in a safe home lab  
+- **Incident Response Playbook** – Wrote a basic IR guide for phishing and brute-force attempts  
+- **Wireshark Analysis** – Identified insecure protocols and documented suspicious behavior from packet captures  
 
-## 📝 Favorite Rooms
-- `Introduction to Networking`
-- `Linux Fundamentals Part 2`
-- `What is Cyber Security?`
+---
 
-## 🎯 Next Up
-Start Complete Beginner path and OWASP Top 10.
-# 🎓 Google Cybersecurity Certificate - Week 1 Notes
+## 🚀 Goals
 
-## 📚 Topics
-- What is cybersecurity?
-- Types of threats: phishing, malware, social engineering
-- Roles in cybersecurity
+- Land my first **cybersecurity role** in a blue team or SOC environment  
+- Continue leveling up toward a **penetration tester** role  
+- Share my progress, notes, and labs publicly to help others break in  
+- Never stop learning — always hacking, always documenting
 
-## 💡 Concepts Learned
-- CIA Triad (Confidentiality, Integrity, Availability)
-- Cybersecurity domains: GRC, Network, SOC, IR
+---
 
-## 🎯 Notes
-- Cybersecurity isn't just about hacking—it's also about defense and risk management.
-- Consider building a home lab for hands-on practice.
-touch certs/google-cybersecurity.pdf
-touch certs/ibm-week1.pdf
-git init
-git remote add origin https://github.com/SpaceCowboy906/cybersecurity-learning.git
-git add .
-git commit -m "🚀 Initial commit with HTB, THM, Coursera progress"
-git push -u origin main
+## Connect With Me
 
+- **Email**: [Vilardochance1@gmail.com](mailto:Vilardochance1@gmail.com)  
+- **LinkedIn**: [linkedin.com/in/chancevilardo](https://linkedin.com/in/chancevilardo)  
+- **GitHub**: [github.com/SpaceCowboy906](https://github.com/SpaceCowboy906)
+
+---
+
+*“Amateurs hack systems, professionals hack people — I’m learning to do both responsibly.”*
