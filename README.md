@@ -54,3 +54,22 @@
   </footer>
 </body>
 </html>
+# Cybersecurity Journey – Week 1
+
+## Topics Learned:
+- Cybersecurity basics
+- Cyber threats: malware, phishing, ransomware
+- Networking fundamentals (IP, DNS, HTTP, OSI model)
+
+## Labs Completed:
+- TryHackMe: "What is Cyber Security"
+- TryHackMe: "How the Internet Works"
+- TryHackMe: "Cyber Threats"
+
+## Tools Used:
+- TryHackMe
+- Google Cybersecurity Certificate
+- YouTube (Professor Messer)
+
+## Thoughts:
+I’m starting to understand how attacks happen and how networks work. It’s exciting to learn how defenders stop them. Can’t wait to learn Linux and tools like Wireshark next!
