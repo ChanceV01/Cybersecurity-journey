@@ -39,7 +39,8 @@
       <li>Git & GitHub</li>
     </ul>
   </section>
-
+div>
+    <!--
   <section class="contact">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:youremail@example.com">Vilardochance1@gmail.com</a></p>
