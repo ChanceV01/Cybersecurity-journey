@@ -1,90 +1,81 @@
-cybersecurity-journey/
-├── README.md# 🛡️ Cybersecurity Journey – From Zero to Hero
+# 💉 HTB - Vaccine (Starting Point)
 
-This repository documents my step-by-step journey into cybersecurity, starting from zero experience. Each week includes notes, hands-on labs, TryHackMe progress, and personal reflections.
+## 🧠 Objective
+Gain initial access and capture the user.txt flag.
 
-## 📆 Week 1 Summary
-- ✅ Set up home lab (VirtualBox, Kali Linux, Windows 10)
-- ✅ Learned basic networking concepts (OSI model, ports, DNS, IP)
-- ✅ Completed initial TryHackMe rooms on the Pre-Security path
-- ✅ Took detailed notes and saved progress here
+## 🛠 Tools Used
+- nmap
+- SMB enumeration (enum4linux / smbclient)
+- Hydra
+- Metasploit
 
-## 🚀 Current Focus
-Building strong fundamentals in networking, Linux, and cybersecurity tools. Following TryHackMe’s “Pre-Security” and “Intro to Cyber Security” paths.
+## 🔍 Summary
+- Discovered open SMB share.
+- Retrieved usernames and performed brute-force login.
+- Gained access via Metasploit reverse shell.
+- Found the user flag in `C:\Users\Administrator\Desktop\user.txt`.
 
----
+## 🎯 Takeaways
+- SMB is a common foothold on Windows machines.
+- Credential reuse is powerful for initial access.
+# 🐛 HTB - Oopsie (Starting Point)
 
-📂 Navigate to [`week-01`](./week-01/) to view lab setup, notes, and screenshots.
+## 🧠 Objective
+Exploit a vulnerable web app and escalate privileges.
 
-└── week-01/
-    ├── lab-setup.md# 🧪 Week 1 – Lab Setup
+## 🛠 Tools Used
+- nmap
+- Gobuster
+- Burp Suite
+- Local privilege escalation (SUID binary)
 
-## ✅ Tools Installed
-- VirtualBox 7.0
-- Kali Linux 2023.4 (x64)
-- Windows 10 Evaluation VM (from Microsoft)
+## 🔍 Summary
+- Found login panel, bypassed auth.
+- Discovered `/upload.php` vulnerable endpoint.
+- Uploaded reverse PHP shell.
+- Escalated privileges using SUID `sudo` misconfig.
 
-## 🔧 Virtual Machine Configuration
-- **Kali Linux**
-  - RAM: 4 GB
-  - Disk: 25 GB
-  - Network: NAT + Host-only adapter
-- **Windows 10**
-  - RAM: 4 GB
-  - Network: NAT
+## 🎯 Takeaways
+- Always check file upload features.
+- Local privesc often relies on overlooked configs.
+# 🧠 TryHackMe - Pre-Security Path Notes
 
-## 💡 Notes
-- Kali comes with tools pre-installed like Nmap, Wireshark, Metasploit.
-- Snapshots created for rollback after tests.
-- Plan to simulate attacks on Windows VM using Kali tools.
+## 🌐 Topics Covered
+- Introduction to networking
+- The web and HTTP/HTTPS basics
+- Linux fundamentals
+- Introduction to cybersecurity
 
-    ├── notes-networking.md# 🌐 Week 1 – Networking Fundamentals
+## 🔑 Key Learnings
+- Learned how IP addressing works.
+- Practiced basic Linux navigation and commands.
+- Understood common attack vectors.
 
-## OSI Model (7 Layers)
-1. Physical – Cables, hardware
-2. Data Link – MAC address, switches
-3. Network – IP, routers
-4. Transport – TCP/UDP, ports
-5. Session – Session management
-6. Presentation – Encryption, compression
-7. Application – HTTP, DNS, etc.
+## 📝 Favorite Rooms
+- `Introduction to Networking`
+- `Linux Fundamentals Part 2`
+- `What is Cyber Security?`
 
-## Common Ports
-| Port | Service |
-|------|---------|
-| 80   | HTTP    |
-| 443  | HTTPS   |
-| 21   | FTP     |
-| 22   | SSH     |
-| 53   | DNS     |
-| 25   | SMTP    |
+## 🎯 Next Up
+Start Complete Beginner path and OWASP Top 10.
+# 🎓 Google Cybersecurity Certificate - Week 1 Notes
 
-## Other Concepts
-- **IP Addressing:** IPv4, Subnetting
-- **DNS:** Resolves domain names to IPs
-- **Firewalls:** Control inbound/outbound traffic
-- **NAT:** Maps private IPs to public
+## 📚 Topics
+- What is cybersecurity?
+- Types of threats: phishing, malware, social engineering
+- Roles in cybersecurity
 
-    ├── tryhackme-progress.md# 🔐 Week 1 – TryHackMe Progress
+## 💡 Concepts Learned
+- CIA Triad (Confidentiality, Integrity, Availability)
+- Cybersecurity domains: GRC, Network, SOC, IR
 
-## Path: Pre-Security
-
-### ✅ Completed Rooms
-- [x] Introduction to Cyber Security
-- [x] What is the Internet?
-- [ ] How Websites Work
-- [ ] Linux Fundamentals 1
-
----
-
-## 📈 Profile Snapshot
-- TryHackMe Username: `@yourusername`
-- Points: XX
-- Streak: X days
-
-🧭 Profile: [Visit my TryHackMe](https://tryhackme.com/p/yourusername)
-
-    └── screenshots/![Lab Setup](./screenshots/vm-setup.png)
-
-        ├── vm-setup.png
-        └── thm-room-complete.png
+## 🎯 Notes
+- Cybersecurity isn't just about hacking—it's also about defense and risk management.
+- Consider building a home lab for hands-on practice.
+touch certs/google-cybersecurity.pdf
+touch certs/ibm-week1.pdf
+git init
+git remote add origin https://github.com/SpaceCowboy906/cybersecurity-learning.git
+git add .
+git commit -m "🚀 Initial commit with HTB, THM, Coursera progress"
+git push -u origin main
