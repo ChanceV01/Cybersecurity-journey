@@ -1,4 +1,4 @@
-# 💉 HTB - Vaccine (Starting Point)
+(Starting Point)
 
 ## 🧠 Objective
 Gain initial access and capture the user.txt flag.
