@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="hero">
-    <h1>Hello, I'm <span>Your Name</span></h1>
+    <h1>Hello, I'm <span>Chance Vilardo</span></h1>
     <p>Aspiring Frontend Developer | JavaScript Enthusiast</p>
   </header>
 
@@ -42,7 +42,7 @@
 
   <section class="contact">
     <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <p>Email: <a href="mailto:youremail@example.com">Vilardochance1@gmail.com</a></p>
     <p>
       <a href="https://github.com/yourusername" target="_blank">GitHub</a> |
       <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
