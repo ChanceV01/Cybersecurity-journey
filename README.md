@@ -47,28 +47,53 @@ Aspiring **Cybersecurity Analyst** on a mission to transition into **penetration
 - Share my progress, notes, and labs publicly to help others break in  
 - Never stop learning — always hacking, always documenting
 
-------
+------# Cybersecurity Journey – Week 1 & 2
 
-# Week 2 – Linux & Cyber Threats
+---
 
-### ✅ Day 8–9: Linux Basics
+## 🔹 Week 1: Foundations of Cybersecurity & Networking
 
-#### Topics Learned:
-- How to navigate Linux with the terminal
-- Common commands: `ls`, `cd`, `pwd`, `mkdir`, `rm`, `nano`, `touch`, `chmod`
-- Understanding the Linux file system hierarchy (/, /home, /etc, etc.)
+### ✅ Topics Learned:
+- What cybersecurity is and why it matters
+- Common cyber threats: malware, phishing, ransomware, DDoS
+- How the internet works (IP, DNS, HTTP, routers, switches)
+- OSI Model basics and how data flows through a network
 
-#### Labs Completed:
-- TryHackMe Room: [Introduction to Linux](https://tryhackme.com/room/linuxfundamentals1)
-- Practiced basic file management in terminal
+### 🔧 Labs Completed:
+- TryHackMe:
+  - [What is Cyber Security?](https://tryhackme.com/room/whatiscybersecurity)
+  - [How the Internet Works](https://tryhackme.com/room/howtheinternetworks)
+  - [Cyber Threats](https://tryhackme.com/room/cyberthreats)
+- Google Cybersecurity Certificate (Getting Started)
 
-#### Commands Practiced:
+### 🧠 Reflections:
+The first week gave me a solid understanding of how attackers operate and what defenders are protecting. Learning the basics of networking and threats helped me connect the dots between theory and real-world scenarios.
+
+---
+
+## 🔹 Week 2: Linux Fundamentals & Terminal Skills
+
+### ✅ Topics Learned:
+- Navigating the Linux terminal (bash shell basics)
+- File and directory management: `ls`, `cd`, `mkdir`, `rm`, `touch`
+- Viewing and editing files with `cat`, `nano`, `chmod`
+- Understanding the Linux file system (/, /home, /etc)
+- Why Linux is critical for cybersecurity work
+
+### 🔧 Labs Completed:
+- TryHackMe:
+  - [Introduction to Linux](https://tryhackme.com/room/linuxfundamentals1)
+  - [Linux Terminal Basics](https://tryhackme.com/room/linuxfundamentals2) *(optional add-on)*
+
+### 💻 Commands Practiced:
 ```bash
+pwd
 ls -la
 cd /home
-pwd
-touch test.txt
-nano test.txt
+mkdir test_folder
+touch hello.txt
+nano hello.txt
+rm hello.txt
 chmod +x script.sh
 
 
