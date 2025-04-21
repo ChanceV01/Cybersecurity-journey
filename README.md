@@ -69,8 +69,6 @@ Aspiring **Cybersecurity Analyst** on a mission to transition into **penetration
 ### 🧠 Reflections:
 The first week gave me a solid understanding of how attackers operate and what defenders are protecting. Learning the basics of networking and threats helped me connect the dots between theory and real-world scenarios.
 
----
-
 ## 🔹 Week 2: Linux Fundamentals & Terminal Skills
 
 ### ✅ Topics Learned:
@@ -95,6 +93,7 @@ touch hello.txt
 nano hello.txt
 rm hello.txt
 chmod +x script.sh
+---
 
 
 ## Connect With Me
