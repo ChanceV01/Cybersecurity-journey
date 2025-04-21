@@ -47,7 +47,30 @@ Aspiring **Cybersecurity Analyst** on a mission to transition into **penetration
 - Share my progress, notes, and labs publicly to help others break in  
 - Never stop learning — always hacking, always documenting
 
----
+------
+
+# Week 2 – Linux & Cyber Threats
+
+### ✅ Day 8–9: Linux Basics
+
+#### Topics Learned:
+- How to navigate Linux with the terminal
+- Common commands: `ls`, `cd`, `pwd`, `mkdir`, `rm`, `nano`, `touch`, `chmod`
+- Understanding the Linux file system hierarchy (/, /home, /etc, etc.)
+
+#### Labs Completed:
+- TryHackMe Room: [Introduction to Linux](https://tryhackme.com/room/linuxfundamentals1)
+- Practiced basic file management in terminal
+
+#### Commands Practiced:
+```bash
+ls -la
+cd /home
+pwd
+touch test.txt
+nano test.txt
+chmod +x script.sh
+
 
 ## Connect With Me
 
